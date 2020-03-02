@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo Tapia</title>
+    
+    <!-- Resources -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/eva-icons"></script>
+    <script type="text/javascript" src="https://www.techtransit.com/mission.courses/coursesData.js"></script>
+
+    <!-- Custom code -->
+    <script type="text/javascript" src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <div>
+                <label for="creditsFilterQTY">Credits at least <span id="creditsFilterOutput"></span> Credits </label>
+                <input type="range" id="creditsFilterQTY" min="0" /> 
+            </div>
+            <div>
+                <label for="ratingFilterQty">Credits at least <span id="ratingFilterOutput"></span> stars </label>
+                <input type="range" id="ratingFilterQty" min="0" max="0"> 
+            </div>
+            <div>
+                <label for="priceFilterQty">Cost at least <span id="priceFilterOutput"></span> dollars </label>
+                <input type="range" id="priceFilterQty" min="0" max="0">
+            </div>
+        </header>
+        <div>
+            <p>Showin <span id="showingQty">...</span> of <span id="resultsQty">...</span> </p>
+        </div>
+    </section>
+    <section>
+            <main id="app"></main>
+    </section>
+
+
+
+</body>
+</html>
