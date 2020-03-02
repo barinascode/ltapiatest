@@ -1,4 +1,4 @@
-# Prueba Leonardo Tapia
+# Technical Test Leonardo Tapia
 
 Frontend instructions
   1) Open frontend folder
