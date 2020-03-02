@@ -12,8 +12,9 @@ Frontend instructions
 Backend instructions
   1) Open backend folder
   2) Run npm install
-  3) Open controllers folder
-  4) Edit coursesController.js and set your mongodb conection
-  5) Use http://yourhost:[port]/populate to populate the database
-  6) Open postman or paw and play with the query string parameters
-  7) Verify the results
+  3) npx nodemon index.js
+  4) Open controllers folder
+  5) Edit coursesController.js and set your mongodb conection
+  6) Use http://yourhost:[port]/populate to populate the database
+  7) Open postman or paw and play with the query string parameters
+  8) Verify the results
